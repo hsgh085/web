@@ -1,0 +1,249 @@
+/* Banner Section */
+section.banner .container {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  text-align: center;
+  color: var(--color-light);
+  background-image: url("../img/seoul.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+section.banner .container .subtitle {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 30px;
+}
+
+section.banner .container .title {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 3rem;
+}
+
+section.banner .container .banner__toggleBtn a {
+  display: inline-block;
+  color: var(--color-light);
+  background: var(--color-dark-blue);
+  padding: 1rem;
+  border-radius: 10%;
+}
+
+section.banner .container .banner__toggleBtn a:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: transform 0.5s;
+}
+
+/* Info Section */
+section.info {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background-image: url("../img/blob1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 3px solid var(--color-dark-blue);
+}
+
+section.info .container {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 55%;
+  margin-top: var(--margin-big-size);
+}
+
+section.info .container .info1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--margin-big-size);
+}
+
+section.info .container .info2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--margin-big-size);
+}
+
+section.info .container .text .title {
+  font-size: var(--font-big-size);
+  font-weight: bold;
+  margin-bottom: var(--margin-small-size);
+}
+
+section.info .container .text .subtitle {
+  font-size: var(--font-middle-size);
+}
+
+section.info .container .image img {
+  width: 400px;
+}
+
+/* Login Info Section */
+section.loginInfo {
+  padding: var(--margin-big-size);
+  border-bottom: 3px solid var(--color-dark-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../img/blob2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.loginInfo .text {
+  font-size: var(--font-big-size);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: var(--margin-middle-size);
+}
+
+section.loginInfo .icons {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.loginInfo .icons li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+section.loginInfo .icons li i {
+  font-size: 8rem;
+  margin-bottom: var(--margin-small-size);
+}
+
+section.loginInfo .icons li i.fas.fa-heart {
+  color: tomato;
+}
+
+section.loginInfo .icons li i.fas.fa-star {
+  color: var(--color-yellow);
+}
+
+section.loginInfo .icons li i.fas.fa-vector-square {
+  color: yellowgreen;
+}
+
+section.loginInfo .icons li i.fas.fa-hotel {
+  color: skyblue;
+}
+
+section.loginInfo .icons li span {
+  font-size: var(--font-middle-size);
+}
+
+/* Today Rec Section */
+section.todayRec {
+  padding: var(--margin-big-size);
+  border-bottom: 3px solid var(--color-dark-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: url("../img/blob3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.todayRec .text {
+  font-size: var(--font-big-size);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: var(--margin-middle-size);
+}
+
+section.todayRec .rec {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+section.todayRec .rec li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.todayRec .rec li span {
+  font-size: var(--font-middle-size);
+  margin-bottom: var(--margin-small-size);
+}
+
+section.todayRec .rec li img {
+  width: 24rem;
+}
+
+/* Latest Review Section */
+section.latestReview {
+  padding: var(--margin-big-size);
+  border-bottom: 3px solid var(--color-dark-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: url("../img/blob4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.latestReview .text {
+  font-size: var(--font-big-size);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: var(--margin-middle-size);
+}
+
+section.latestReview .review {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+section.latestReview .review li .container {
+  font-size: var(--font-middle-size);
+  margin-bottom: var(--margin-small-size);
+  padding: 1.5rem;
+  border-top: 2px solid var(--color-dark-blue);
+  border-bottom: 2px solid var(--color-dark-blue);
+  border-radius: 5%;
+  width: 200px;
+  height: 200px;
+}
+
+section.latestReview .review li .container .head .title {
+  font-size: var(--font-middle-size);
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+section.latestReview .review li .container .head .star {
+  display: flex;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+section.latestReview .review li .container .head .star li:nth-child(-n + 3) {
+  color: var(--color-yellow);
+}
+
+section.latestReview .review li .container .content {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+  font-size: 1rem;
+}

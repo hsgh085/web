@@ -1,0 +1,12 @@
+footer {
+  padding: var(--margin-middle-size);
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer ul li a {
+  color: var(--color-gray);
+}

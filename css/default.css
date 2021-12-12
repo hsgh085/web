@@ -1,0 +1,42 @@
+:root {
+  --color-dark-gray: #353536;
+  --color-gray: #75757c;
+  --color-light-gray: #c1c1c2;
+  --color-blue: #a0e7e5;
+  --color-dark-blue: #3f82eb;
+  --color-light: #f5f5f5;
+  --color-pink: #ffaebc;
+  --color-yellow: rgb(255, 219, 57);
+  --font-family: "Gugi", cursive;
+  --font-small-size: 0.5rem;
+  --font-middle-size: 1.5rem;
+  --font-big-size: 2.8rem;
+  --margin-small-size: 30px;
+  --margin-middle-size: 5rem;
+  --margin-big-size: 10rem;
+  --td: 150ms;
+  --te: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--color-dark-gray);
+}
+
+a {
+  text-decoration: 0;
+  outline: none;
+}
+
+a:visited {
+  color: none;
+}
+
+li {
+  list-style: none;
+}
